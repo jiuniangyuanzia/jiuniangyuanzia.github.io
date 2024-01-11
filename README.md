@@ -1,16 +1,12 @@
----
-title: README.md
-Welcome to [Hexo][1]! This is your very first post. Check [documentation][2] for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting][3] or you can ask me on [GitHub][4].
-
-## Quick Start
+## Finally!
 
 ### Create a new post
 
-``` bash
+```
 $ hexo new "My New Post"
 ```
 
-More info: [Writing][5]
+More info: [Writing][1]
 
 ### Run server
 
@@ -18,7 +14,7 @@ More info: [Writing][5]
 $ hexo server
 ```
 
-More info: [Server][6]
+More info: [Server][2]
 
 ### Generate static files
 
@@ -26,7 +22,7 @@ More info: [Server][6]
 $ hexo generate
 ```
 
-More info: [Generating][7]
+More info: [Generating][3]
 
 ### Deploy to remote sites
 
@@ -34,13 +30,9 @@ More info: [Generating][7]
 $ hexo deploy
 ```
 
-More info: [Deployment][8]
+More info: [Deployment][4]
 
-[1]:	https://hexo.io/
-[2]:	https://hexo.io/docs/
-[3]:	https://hexo.io/docs/troubleshooting.html
-[4]:	https://github.com/hexojs/hexo/issues
-[5]:	https://hexo.io/docs/writing.html
-[6]:	https://hexo.io/docs/server.html
-[7]:	https://hexo.io/docs/generating.html
-[8]:	https://hexo.io/docs/one-command-deployment.html
+[1]:	https://hexo.io/docs/writing.html
+[2]:	https://hexo.io/docs/server.html
+[3]:	https://hexo.io/docs/generating.html
+[4]:	https://hexo.io/docs/one-command-deployment.html
