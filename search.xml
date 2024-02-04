@@ -2,6 +2,31 @@
 <search>
   <entry>
     <title>This is a test blog</title>
+    <url>/2024/01/10/blog%20copy/</url>
+    <content><![CDATA[<span id="more"></span>
+<ul>
+<li>why is it not working?</li>
+<li>why?</li>
+<li>why?</li>
+</ul>
+<blockquote>
+<p>quote test<br>haggg<br>hnag</p>
+</blockquote>
+<p>end quote</p>
+<h1 id="this-is-title-1"><a href="#this-is-title-1" class="headerlink" title="this is title 1"></a>this is title 1</h1><p>这是一集比阿</p>
+<h2 id="this-is-title-2"><a href="#this-is-title-2" class="headerlink" title="this is title 2"></a>this is title 2</h2><p>这是耳机标题</p>
+<h3 id="this-title-3"><a href="#this-title-3" class="headerlink" title="this title 3"></a>this title 3</h3><p>这是三级标题</p>
+<p>这是一个<strong>加粗</strong>，这是一个<em>斜体</em>，这是一个 <em><strong>加粗加斜体</strong></em> 的文字，不知道你会不会知道。</p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>This is a test blog</title>
     <url>/2024/01/10/blog/</url>
     <content><![CDATA[<span id="more"></span>
 <ul>
