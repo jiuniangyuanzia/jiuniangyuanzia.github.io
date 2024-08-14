@@ -66,4 +66,24 @@
         <tag>年终总结</tag>
       </tags>
   </entry>
+  <entry>
+    <title>要山要海要自由</title>
+    <url>/2024/03/03/%E8%A6%81%E5%B1%B1%E8%A6%81%E6%B5%B7%E8%A6%81%E8%87%AA%E7%94%B1/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ccd774faad5b770564ee2f2b91667808f08f76c791824dbfbef605b70c918d07">97b9f826b4a8898218d0f8db717b5691f08119aaf4ecf9e3da4bdd47c36a90068c7031fd64921e89c2ba4c4966188f962d04bf671b65382b364ad32c68346e0954055c61866657a6feb6fd91924bd8e9161e1e08776e1b7f60babeb61397acc8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-swup-reload-script src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>daily</category>
+      </categories>
+  </entry>
 </search>
