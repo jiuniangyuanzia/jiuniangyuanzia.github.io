@@ -243,6 +243,17 @@
       </tags>
   </entry>
   <entry>
+    <title>要山要海要自由 Version 0.1</title>
+    <url>/2024/03/03/%E8%A6%81%E5%B1%B1%E8%A6%81%E6%B5%B7%E8%A6%81%E8%87%AA%E7%94%B1/</url>
+    <content><![CDATA[<p>今天是下雨天，非常適合躺在床上睡覺。</p>
+<p>雖然但是，現在已經不想回頭看了。</p>
+<p>三月份就已經創建這個MD，但是拖到現在，就像標題說的，只是0.1版本，留著可能以後會更新吧。</p>
+]]></content>
+      <categories>
+        <category>daily</category>
+      </categories>
+  </entry>
+  <entry>
     <title>历经善恶皆是爱</title>
     <url>/2024/01/12/%E5%8E%86%E7%BB%8F%E5%96%84%E6%81%B6%E7%9A%86%E6%98%AF%E7%88%B1/</url>
     <content><![CDATA[<p>标题本应是2023年终总结，可是在翻看一些历史的时候忽然看到了这句歌词，有些感慨，便以此作为标题。</p>
@@ -287,72 +298,5 @@
       <tags>
         <tag>年终总结</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Setting up Python Virtual Environment on Mac</title>
-    <url>/2024/10/26/Setting-up-Python-Virtual-Environment-on-Mac/</url>
-    <content><![CDATA[<blockquote>
-<p>Create virtual environment on mac and install python packages you need</p>
-</blockquote>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1. Create virtual environment. myenv is the name of the Python virtual environment</span></span><br><span class="line">python3 -m venv ~/myenv</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. avtivate virtual environment</span></span><br><span class="line">source ~/myenv/<span class="built_in">bin</span>/activate</span><br></pre></td></tr></table></figure></div>
-
-<p>if it’s successfully activated, it will show as follows</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://blogimages.leileitong.com/blogimages-cf-r2/2024/Setting-up-Python-Virtual-Environment-on-Mac/Screenshot_2024-09-30_at_7.36.52_PM.png"
-                      alt="Screenshot 2024-09-30 at 7.36.52 PM.png"
-                ></p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 3. check if pip command is installed</span></span><br><span class="line">pip --version</span><br><span class="line"></span><br><span class="line"><span class="comment"># if pip is not installed, download script [get-pip.py](http://get-pip.py/)</span></span><br><span class="line"></span><br><span class="line">curl https://bootstrap.pypa.io/get-pip.py -o [get-pip.py](http://get-pip.py/)</span><br><span class="line"></span><br><span class="line"><span class="comment"># run [get-pip.py](http://get-pip.py/) to install pip</span></span><br><span class="line"></span><br><span class="line">python [get-pip.py](http://get-pip.py/)</span><br><span class="line"></span><br><span class="line"><span class="comment"># check pip command again</span></span><br><span class="line"></span><br><span class="line">pip --version</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<blockquote>
-<p>install python packages you need</p>
-</blockquote>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># I need to process geo data in json format, just an example.</span></span><br><span class="line"></span><br><span class="line">pip install requests</span><br><span class="line">pip install geopandas</span><br><span class="line"></span><br><span class="line"><span class="comment"># verify you installation</span></span><br><span class="line"></span><br><span class="line">pip <span class="built_in">list</span></span><br></pre></td></tr></table></figure></div>
-
-<p>if it’s successfully activated, it will show as follows</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://blogimages.leileitong.com/blogimages-cf-r2/2024/Setting-up-Python-Virtual-Environment-on-Mac/Screenshot_2024-09-30_at_7.56.40_PM.png"
-                      alt="Screenshot 2024-09-30 at 7.56.40 PM.png"
-                ></p>
-<hr>
-<blockquote>
-<p>Then you can run your python script</p>
-</blockquote>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># run python scripts, note your file paths</span></span><br><span class="line"></span><br><span class="line">python your_script.py</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<blockquote>
-<p>Exit virtual environment when you finish your task</p>
-</blockquote>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># exit virtual envrionment</span></span><br><span class="line"></span><br><span class="line">deactivate</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<aside>
-
-<p>In case accidentally create too many virtual environments</p>
-</aside>
-
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># find virtural envrionments</span></span><br><span class="line"></span><br><span class="line">find ~ -name <span class="string">&quot;pyvenv.cfg&quot;</span> -<span class="built_in">type</span> f</span><br><span class="line"></span><br><span class="line"><span class="comment"># deleta all(not recommand)</span></span><br><span class="line"></span><br><span class="line">rm -rf /path/to/virtual/environment</span><br><span class="line"></span><br><span class="line"><span class="comment"># delete specific virtural environment( *myenv* in this case)</span></span><br><span class="line"></span><br><span class="line">rm -rf ~/.virtualenvs/myenv</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>turtorials</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>要山要海要自由 Version 0.1</title>
-    <url>/2024/03/03/%E8%A6%81%E5%B1%B1%E8%A6%81%E6%B5%B7%E8%A6%81%E8%87%AA%E7%94%B1/</url>
-    <content><![CDATA[<p>今天是下雨天，非常適合躺在床上睡覺。</p>
-<p>雖然但是，現在已經不想回頭看了。</p>
-<p>三月份就已經創建這個MD，但是拖到現在，就像標題說的，只是0.1版本，留著可能以後會更新吧。</p>
-]]></content>
-      <categories>
-        <category>daily</category>
-      </categories>
   </entry>
 </search>
